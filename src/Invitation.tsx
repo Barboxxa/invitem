@@ -56,7 +56,7 @@ const Invitation: React.FC<InvitationProps> = ({ image, title, description, date
         mode: "no-cors", // 🔹 Evita bloqueios de CORS
       });
 
-      console.log("Tentativa de envio concluída.");
+      console.log("Tentativa de envio concluída.",response);
       setIsFormOpen(false);
       setConfirmed(true);
       setShowThankYou(true);
