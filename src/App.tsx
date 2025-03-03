@@ -1,5 +1,5 @@
 import Invitation from "./Invitation";
-import invitePhoto from "./assets/1.png"
+import invitePhoto from "./assets/2.png"
 function App() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
